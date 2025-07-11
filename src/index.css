@@ -1,0 +1,32 @@
+body {
+  background-color: #262642;
+  color: #f8f9fa;
+}
+a {
+  color: #4f8cff;
+}
+a:hover {
+  color: #90c2ff;
+}
+
+/* Skill */
+.skills-marquee {
+  position: relative;
+  width: 100%;
+  height: 80px;
+}
+
+.skills-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
