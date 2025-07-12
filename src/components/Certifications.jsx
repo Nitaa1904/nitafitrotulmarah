@@ -56,17 +56,7 @@ const Certifications = () => {
   };
 
   return (
-    <section
-      id="certifications"
-      className="py-5 mb-5"
-      style={
-        {
-          // width: "100vw",
-          // marginLeft: "calc(-50vw + 50%)",
-          // background: "linear-gradient(135deg, #151530 0%, #202040 100%)",
-        }
-      }
-    >
+    <section id="certifications" className="py-5 mb-5">
       <div className="container text-center text-light">
         <h2 className="fw-bold mb-5" style={{ color: "#4f8cff" }}>
           Achievements & Certifications

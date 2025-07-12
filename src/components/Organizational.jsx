@@ -2,39 +2,38 @@ import React, { useState } from "react";
 
 const roles = [
   {
-    title: "🏆 Deputy Chair of SE Student Association",
+    title: "🏆 Deputy Chair – Software Engineering Student Association",
     date: "Aug 2024 – Jan 2025",
-    short:
-      "Memimpin perencanaan dan koordinasi perayaan HUT Rekayasa Perangkat Lunak ke-8.",
-    full: "Menjadi wakil ketua Himpunan Mahasiswa RPL, memimpin kegiatan HUT RPL ke-8, membantu pengambilan keputusan strategis organisasi, serta mengoordinasikan program antar divisi selama masa kepengurusan.",
+    short: "Led the planning and coordination of the 8th SE Anniversary event.",
+    full: "Served as Vice Chair of the Software Engineering Student Association. Oversaw the 8th SE Anniversary celebration, contributed to strategic decisions, and coordinated cross-division programs during the organizational term.",
   },
   {
-    title: "📝 Secretary of SE Student Association",
+    title: "📝 Secretary – Software Engineering Student Association",
     date: "June 2023 – July 2024",
     short:
-      "Mengelola dokumen organisasi, proposal kegiatan, dan surat-menyurat resmi.",
-    full: "Mengelola dokumentasi kegiatan himpunan, bertanggung jawab membuat lebih dari 200 surat dan 7 proposal besar untuk program kerja Himpunan Mahasiswa RPL. Memastikan alur administrasi berjalan efektif.",
+      "Managed organizational documents, proposals, and official correspondence.",
+    full: "Handled the documentation and administrative needs of the student association. Created over 200 official letters and 7 major proposals to support internal and external programs efficiently.",
   },
   {
-    title: "🎯 Staff Divisi Mentor General – Satria Muda ITTP",
+    title: "🎯 General Mentor Division Staff – Satria Muda ITTP",
     date: "Jan – Dec 2024",
     short:
-      "Mereview proposal lomba dan mendampingi persiapan kompetisi internal kampus.",
-    full: "Membantu pelaksanaan kompetisi internal ITTP, mengulas lebih dari 100 proposal lomba, menjadi penghubung antar mentor dan peserta, serta berperan aktif dalam pengembangan kualitas kompetisi mahasiswa.",
+      "Reviewed competition proposals and assisted campus competition preparation.",
+    full: "Supported the implementation of internal campus competitions. Reviewed over 100 competition proposals and coordinated mentor-participant relations to improve student competition readiness.",
   },
   {
-    title: "📚 Publication Co-Chair – Seminar CENTIVE ITTP",
+    title: "📚 Co-Chair of Publication – CENTIVE Seminar ITTP",
     date: "Sep – Dec 2023",
     short:
-      "Mengelola naskah seminar dan menyusun buku prosiding kegiatan CENTIVE.",
-    full: "Bertanggung jawab dalam pengumpulan, penyuntingan, dan layout lebih dari 50 naskah seminar CENTIVE ITTP. Mengorganisasi publikasi kegiatan secara profesional hingga prosiding final siap distribusi.",
+      "Managed seminar manuscripts and compiled the official proceedings book.",
+    full: "Responsible for collecting, editing, and formatting more than 50 papers submitted for the CENTIVE Seminar. Oversaw the full publishing process to deliver a professional and complete final proceedings book.",
   },
   {
-    title: "🤝 Secretary – SE Berbagi (Bakti Sosial)",
+    title: "🤝 Secretary – SE Berbagi (Social Service)",
     date: "Nov 2023",
     short:
-      "Membuat 50+ surat donasi dan menyusun laporan kegiatan sosial ke desa mitra.",
-    full: "Sebagai sekretaris kegiatan bakti sosial RPL, menulis puluhan surat permohonan bantuan, mengatur logistik bersama kepala desa, serta menyusun laporan pertanggungjawaban acara secara menyeluruh dan representatif.",
+      "Drafted 50+ donation letters and created the event report for a rural village.",
+    full: "Acted as secretary for the SE Berbagi social service program. Drafted donation request letters, coordinated with village leadership, managed logistics, and composed the official event report for accountability and documentation.",
   },
 ];
 
@@ -85,7 +84,7 @@ const Organizational = () => {
               setExpandedIndex(expandedIndex === index ? null : index)
             }
           >
-            {expandedIndex === index ? "Tutup" : "Baca Selengkapnya →"}
+            {expandedIndex === index ? "Close" : "Read More →"}
           </button>
         </div>
       ))}

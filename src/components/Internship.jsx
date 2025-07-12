@@ -5,50 +5,50 @@ const experiences = [
     title: "💼 UI/UX Designer (Intern) – Telkom Indonesia",
     date: "July 2025 – Present",
     short:
-      "Mendesain dashboard analitik & komponen UI untuk program NPS di Telkom DBT.",
-    full: "Mendesain dan menyusun antarmuka pengguna (UI) untuk mendukung strategi CX Manager dalam program Net Promoter Score (NPS). Bertanggung jawab terhadap pembuatan wireframe, visual komponen, dan dashboard analitik berbasis insight untuk mengukur dan meningkatkan pengalaman pelanggan secara digital di lingkungan Telkom Digital Business & Technology (DBT).",
+      "Designed analytic dashboards & UI components for the NPS program at Telkom DBT.",
+    full: "Designed and structured user interfaces (UI) to support the CX Manager’s strategy in the Net Promoter Score (NPS) program. Responsible for creating wireframes, visual components, and insight-driven analytic dashboards to enhance digital customer experience within Telkom Digital Business & Technology (DBT).",
   },
   {
     title: "🧠 Backend Developer (Golang) – BRI Village Cooperative Project",
-    date: "Mei 2025 – Present",
+    date: "May 2025 – Present",
     short:
-      "Membuat layanan backend koperasi desa (BRI) menggunakan Golang, JWT, dan fitur rules.",
-    full: "Mengembangkan layanan backend menggunakan Golang untuk sistem koperasi desa yang didukung oleh Bank Rakyat Indonesia. Fitur utama mencakup manajemen aturan simpanan dan pinjaman, otentikasi JWT, middleware berbasis peran (super admin), serta filter & pagination untuk pencarian data. API RESTful siap diintegrasikan dengan frontend modern.",
+      "Developed backend services using Golang, JWT, role-based middleware, and rule management.",
+    full: "Built backend services using Golang for a village cooperative system initiated by Bank Rakyat Indonesia. Key features include deposit & loan rule management, JWT authentication, role-based middleware (super admin), as well as filter and pagination-based search. RESTful APIs ready for modern frontend integration.",
   },
   {
     title: "✈️ Front-End Developer (React.js) – AEROLOKA Project",
     date: "Nov – Dec 2024",
     short:
-      "Membangun tampilan dan fungsionalitas pemesanan tiket AEROLOKA dengan React.js.",
-    full: "Membangun platform pemesanan tiket perjalanan bernama AEROLOKA menggunakan React.js. Bertanggung jawab untuk merancang tampilan antarmuka pemesanan, integrasi ke halaman hasil pencarian, serta layout responsif untuk desktop dan mobile dengan performa real-time.",
+      "Built ticket booking UI & functionality for AEROLOKA using React.js.",
+    full: "Developed a ticket booking platform called AEROLOKA using React.js. Responsible for designing the booking interface, integrating search result pages, and implementing responsive layouts optimized for both desktop and mobile with real-time performance.",
   },
   {
     title: "🚀 WordPress Developer – DIGIMARLY",
-    date: "Jul – Okt 2024",
+    date: "Jul – Oct 2024",
     short:
-      "Membangun situs perusahaan berbasis WordPress, kolaborasi SEO dan UI.",
-    full: "Membuat dan mengelola situs web perusahaan menggunakan WordPress. Bertanggung jawab untuk menyusun struktur halaman dinamis, mengintegrasikan tema & plugin, serta berkolaborasi dalam desain UI dan pengoptimalan SEO untuk memperkuat citra digital DIGIMARLY.",
+      "Built dynamic company websites with WordPress, collaborating on UI and SEO.",
+    full: "Created and maintained company websites using WordPress. Designed dynamic page structures, integrated themes & plugins, and collaborated on UI design and SEO optimization to strengthen DIGIMARLY’s digital presence.",
   },
   {
-    title: "🏫 Assistant TOEFL – Language Center ITTP",
+    title: "🏫 TOEFL Test Assistant – Language Center ITTP",
     date: "Jun 2024 – Jun 2025",
     short:
-      "Menangani pelaksanaan tes TOEFL kampus, monitoring dan support peserta.",
-    full: "Mendampingi pelaksanaan tes TOEFL di Telkom University Purwokerto, memastikan peserta mengikuti tata tertib, memberikan panduan teknis, serta mencatat laporan pelaksanaan dan hasil tes secara administratif untuk pusat bahasa kampus.",
+      "Supervised campus TOEFL test executions and assisted test participants.",
+    full: "Supervised TOEFL test execution at Telkom University Purwokerto, ensuring test rules were followed, providing technical guidance, and compiling administrative reports on test sessions and results for the campus Language Center.",
   },
   {
     title: "💻 OS Practicum Assistant – Operating Systems Course",
-    date: "Sep – Des 2024",
+    date: "Sep – Dec 2024",
     short:
-      "Membimbing praktikum Red Hat Linux, troubleshooting, dan virtualisasi.",
-    full: "Mendampingi mahasiswa Sistem Informasi dalam praktikum Sistem Operasi. Fokus pada pengoperasian Red Hat Linux, instalasi di VirtualBox, troubleshooting command-line, serta asesmen konfigurasi sistem dan performa dasar OS.",
+      "Guided Red Hat Linux lab sessions, virtualization, and command-line troubleshooting.",
+    full: "Assisted Information Systems students in Operating Systems lab sessions, focusing on Red Hat Linux operation, VirtualBox installation, command-line troubleshooting, and system configuration assessments.",
   },
   {
     title: "🖥 Web Development Lecturer Assistant – Laravel Course",
     date: "Feb – Jun 2025",
     short:
-      "Mengajar Laravel dasar hingga proyek akhir untuk dua kelas Sistem Informasi.",
-    full: "Menjadi asisten dosen mata kuliah Pengembangan Aplikasi Web. Memberikan pengajaran Laravel secara menyeluruh untuk dua kelas Sistem Informasi, mulai dari routing, MVC, CRUD, hingga deployment proyek akhir berbasis Laravel.",
+      "Taught Laravel fundamentals and final projects for two Information Systems classes.",
+    full: "Assisted in teaching the Web Application Development course, covering Laravel framework fundamentals. Delivered material on routing, MVC, CRUD operations, and guided students in completing their final projects using Laravel.",
   },
 ];
 
@@ -99,7 +99,7 @@ const Internship = () => {
               setExpandedIndex(expandedIndex === index ? null : index)
             }
           >
-            {expandedIndex === index ? "Tutup" : "Baca Selengkapnya →"}
+            {expandedIndex === index ? "Close" : "Read More →"}
           </button>
         </div>
       ))}
