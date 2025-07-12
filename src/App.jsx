@@ -14,6 +14,7 @@ import ExperienceContainer from "./components/ExperienceContainer";
 import Education from "./components/Education";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import CourseSection from "./components/CourseSection";
 
 const App = () => (
   <div className="min-vh-100">
@@ -25,8 +26,9 @@ const App = () => (
       <Education />
       {/* <Focus /> */}
       <ExperienceContainer />
-      <Projects />
       <Certifications />
+      <CourseSection />
+      <Projects />
     </main>
     <Footer />
   </div>
