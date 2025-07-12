@@ -108,7 +108,7 @@ const Education = () => (
             <p className="mb-1 text-secondary">
               Intern - CX Measurement & Performance
             </p>
-            <p className="mb-0">Jul 2025 – Sep 2025</p>
+            <p className="mb-0">Jul 2025 – Now</p>
           </div>
         </div>
       </div>
