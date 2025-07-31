@@ -41,7 +41,8 @@ const SocialSidebar = () => (
           onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
         />
       </a>
-      <a href="mailto:nitafitrotul1904@gmail.com">
+      <a href="mailto:nitafitrotul1904@gmail.com?subject=Halo&body=Saya%20ingin%20menghubungi%20Anda.">
+        {" "}
         <img
           src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg"
           alt="Email"

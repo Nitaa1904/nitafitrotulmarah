@@ -63,7 +63,7 @@ const Profile = () => (
 
           <div className="d-flex justify-content-md-start justify-content-center gap-3 flex-wrap">
             <a
-              href="https://example.com/cv.pdf"
+              href="https://drive.google.com/file/d/1npVf8m9y-sPnVW8IrvBjzWMAP0fkPum9/view?usp=sharing"
               className="btn btn-primary d-flex align-items-center gap-2"
               target="_blank"
               rel="noopener noreferrer"
